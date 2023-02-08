@@ -1,2 +1,2 @@
 # Surfstudio
-Test task for surfstudio internship program 2023.
+Test task for Surfstudio internship program 2023.

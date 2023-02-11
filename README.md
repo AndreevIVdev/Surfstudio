@@ -1,14 +1,14 @@
 # Surfstudio internship test task
 
-Hi! In this repo you may find my solution of [Surfstudio internship test task](https://github.com/surfstudio/Surf-iOS-Developers/blob/master/Docs/Hiring/students-test-project.md).
+Hi! In this repo you can find my solution of [Surfstudio internship test task](https://github.com/surfstudio/Surf-iOS-Developers/blob/master/Docs/Hiring/students-test-project.md).
 
 <div align="center">
-  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="900" height="900"/>
+  <img src="https://github.com/AndreevIVdev/Surfstudio/blob/main/Surfstudio%20Lab/Surfstudio%20Lab/Assets.xcassets/Group.imageset/Group.png" width="900" height="900"/>
 </div>
 
 ## Description
 
-Application shows apply screen for internship program. User can get more detail information by dragging modal window up.
+Application shows request-apply screen for internship program. User can get more detail information by dragging modal window up.
 
 ## UIFramework
 
@@ -16,8 +16,8 @@ The code is written on Swift, UI is based on UIKIt, without using storyboards, l
 
 ## Implementation
 
-Th only one ViewController is called "RequestViewController", it contains several views.
-The most interesting one is modalView. This is UIView with panGestureRecognizer. It contains contentView with two horizontal collection views. They have the same cells, but diffrent layout. Both os them use UICollectionViewFlowLayout.
+The only one ViewController is called "RequestViewController", it contains several views.
+The most interesting one is modalView. This is UIView with panGestureRecognizer. It contains contentView with two horizontal collection views. They have the same cells, but different layouts. Both of them use UICollectionViewFlowLayout.
 
 The first collection view has infinite carousel effect, wich one was achieved by implementing scrollViewDidScroll function from UIScrollViewDelegate protocol, and manual change of the datasource and scrollView offset.
 
@@ -25,10 +25,16 @@ The second collection view uses custom implementation of UICollectionViewFlowLay
 
 ## Conclusion
 
-Project does not use any side code, or 3pl dependencies. Some mutually exclusive task requirements are missed.
-The codebase if verified with Swiftlint, using the Raywenderlinch style guide. 
+Project does not use any side code, or 3pl dependencies. Some mutually exclusive task requirements are skipped.
+The codebase is verified with Swiftlint, using the Raywenderlinch style guide. 
 
 
 ## Screenshots
 
-| ![alt text](https://github.com/AndreevIVdev/NASHKODIM/blob/main/TestTaskMobileUP/Screenshots%20and%20gif's/Auth.gif?raw=true) ![alt text](https://github.com/AndreevIVdev/NASHKODIM/blob/main/TestTaskMobileUP/Screenshots%20and%20gif's/Light.gif?raw=true)|
+### Iphone 14 Pro Max:
+
+![alt text](https://github.com/AndreevIVdev/Surfstudio/blob/main/Surfstudio%20Lab/Resources/iPhone%2014%20Pro%20Max.gif) 
+
+### Iphone SE 3:
+
+![alt text](https://github.com/AndreevIVdev/Surfstudio/blob/main/Surfstudio%20Lab/Resources/iPhone%20SE3%20.gif)

@@ -1,8 +1,6 @@
 # Surfstudio internship test task
 
-Hi!
-
-In this repository you may find my solution of [Surfstudio internship test task](https://github.com/surfstudio/Surf-iOS-Developers/blob/master/Docs/Hiring/students-test-project.md).
+Hi! In this repo you may find my solution of [Surfstudio internship test task](https://github.com/surfstudio/Surf-iOS-Developers/blob/master/Docs/Hiring/students-test-project.md).
 
 <div align="center">
   <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="900" height="900"/>
